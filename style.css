@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+.container{
+  display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./assets/fundo-de-mesa-de-poquer-na-cor-verde_47243-1068.jpg);
+    background-size: cover;
+    font-family: 'Bangers', cursive;
+}
+
+.tabela{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 230px;
+    height: 340px;
+    text-align: center;
+    background-image: url(./assets/Quatro-de-paus-truco.jpg);
+    border-radius: 20px;
+    background-size: cover;  
+}
+
+.tabela-titulo{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.pontuacao{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+  
+    font-size: 30px;
+    padding: 10px;
+}
+
+#botoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#tirarPontos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.btnMenos1{
+    margin-right: 25px;
+    width: 50px;
+    background-color: black;
+    border-style: none;
+    color: white;
+    border-radius: 10px;
+    
+}
+.btnMenos2{
+    margin-left: 25px;
+    width: 50px;
+    background-color: rgb(255, 0, 0);
+    border-style: none;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+#pontosEles{
+    margin-left: 20px;
+}
+
+#pontosNos{
+    margin-right: 20px;
+}
+
+
+#trucobtn:hover {
+    background: rgb(84, 202, 238);
+    color: rgb(255, 255, 255);
+}
+#trucobtn {
+    margin-bottom: 20px;
+   padding: 15px;
+   border-radius: 10px;
+    cursor: pointer;
+    border-style: none;
+}
+
+.pontuacaoTruco{
+    margin-top: 8px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    background-color: rgba(240, 248, 255, 0.26);
+    border-radius: 20px;
+  
+}
+
+#copas{
+    width: 60px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+
+}
+

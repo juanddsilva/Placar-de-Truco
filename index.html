@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Placar de truco</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="tabela">
+            <h1 class="tabela-titulo">PLACAR TRUCO</h1>
+
+            <div class="pontuacao">
+                <div id="pontosNos" value 0>  0</div>
+                x
+                <div id="pontosEles" value 0> 0</div>
+            </div>
+
+            <div id="botoes">
+                <div id="tirarPontos">
+                    <button class="btnMenos1" onclick="diminuirPontosNos()" id="botaoTirarPontosNos">-</button>
+                    <button  class="btnMenos2" onclick="diminuirPontosEles()" id="botaoTirarPontosEles">-</button>
+                </div>
+
+                <div id="botaoAumentarPontos">
+                    <input id="copas" type="image" src="./assets/ouros.png" onclick="aumentarPontosNos()" id="botaoAumentarPontosNos"></input>
+                    <input id="copas" type="image" src="./assets/Naipe_espadas.png" onclick="aumentarPontosEles()" id="botaoAumentarPontosEles"></input>
+                </div>
+
+
+            </div>
+            <div class="pontuacaoTruco">
+                <p>Pontos
+                <p id="pontosPartida">1</p>
+                </p>
+                <div id="truco" onclick="truco()">
+                    <button id="trucobtn" value=0 ">Truco</button>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </div>
+
+    <script src=" ./logica.js"></script>
+</body>
+
+</html>
