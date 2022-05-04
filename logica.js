@@ -16,7 +16,7 @@ function aumentarPontosNos() {
                 pontosEles.innerHTML = 0;
                 pontosPartida.innerHTML = '1'
                 truco.value = 0
-                alert('nós ganhamos a partida')
+                alert('Time 1 ganhou a partida!')
             }, 10);
 
             return;
@@ -35,7 +35,7 @@ function aumentarPontosNos() {
                 pontosEles.innerHTML = 0;
                 truco.value = 0
                 pontosPartida.innerHTML = '1'
-                alert('nós ganhamos a partida')
+                alert('Time 1 ganhou a partida!')
             }, 10);
 
             return;
@@ -60,7 +60,7 @@ function aumentarPontosEles() {
                 pontosNos.innerHTML = 0;
                 truco.value = 0
                 pontosPartida.innerHTML = '1'
-                alert('nós ganhamos a partida')
+                alert('Time 2 ganhou a partida!')
             }, 10);
 
         }
@@ -76,7 +76,7 @@ function aumentarPontosEles() {
                 pontosNos.innerHTML = 0;
                 truco.value = 0
                 pontosPartida.innerHTML = '1'
-                alert('Eles ganharam a partida')
+                alert('Time 2 ganhou a partida!')
             }, 10);
         }
     } return;
